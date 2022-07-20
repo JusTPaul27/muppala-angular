@@ -54,6 +54,7 @@ export class DishDetailComponent implements OnInit {
 
   dish = DISH;
 
+
   constructor() { }
 
   ngOnInit(): void {
