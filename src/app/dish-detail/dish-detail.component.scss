@@ -1,0 +1,10 @@
+.dish-container{
+display: flex;
+flex-direction: row;
+}
+
+.dish-detail-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
