@@ -8,3 +8,10 @@ flex-direction: row;
   flex-direction: column;
   justify-content: space-around;
 }
+
+.comment-container{
+  display: flex;
+  flex-direction: column;
+  border: red solid 2px;
+  font-size: large;
+}

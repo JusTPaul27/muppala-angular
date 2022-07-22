@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { DishDetailComponent } from './dish-detail/dish-detail.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
