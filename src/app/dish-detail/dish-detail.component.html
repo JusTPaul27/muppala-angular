@@ -1,6 +1,6 @@
 <div class="dish-container">
-  <div  *ngIf="dish">
-    <mat-card>
+  <div>
+    <mat-card *ngIf="dish">
       <mat-card-header>
         <mat-card-title>
           <h3>{{dish.name | uppercase}}</h3>
@@ -17,7 +17,7 @@
     </mat-card>
   </div>
   <div class="comment-container">
-     <mat-list>
+     <mat-list *ngIf="dish">
     <h3>Comments</h3>
     <mat-list-item *ngFor="let comment of dish.comments">
       <h4 matLine> {{comment.comment}} </h4>
@@ -25,7 +25,4 @@
       <p matLine>
         <span> -- {{comment.author}} {{comment.date | date }} </span>
       </p>
-    </mat-list-item>
-  </mat-list>
-  </div>
-  </div>
+    </mat-list-item> 
